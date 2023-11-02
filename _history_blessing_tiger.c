@@ -50,7 +50,8 @@ char *get_blessings_history(info_t *bensInfo)
 	{
 		return (NULL);
 	}
-	blessbuf = malloc(sizeof(char) * (_strlen(blessdir) + _strlen(HIST_FILE) + 2));
+	blessbuf = malloc(sizeof(char) * (_strlen(blessdir) +
+				_strlen(HIST_FILE) + 2));
 	if (!blessbuf)
 	{
 		return (NULL);
