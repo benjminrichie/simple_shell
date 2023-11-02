@@ -18,4 +18,8 @@ In this Project, we covered numerous concepts and created the following files
 11. 
 12. 
 13. 
-14. 
+14.
+
+
+***********************THE HEADER FILE FOR THIS PROGRAM IS BlessBenShell.h
+As such, we always remember to #include "BlessBenShell.h" in each of the files above from 1 to 14 
