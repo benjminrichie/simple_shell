@@ -7,8 +7,8 @@ In this Project, we covered numerous concepts and created the following files
 
 1. BensInfoFunc.c
 2. _history_blessing_tiger.c
-3. 
-4. 
+3. Funct_getsmyenviron.c
+4. quit_exits_finish.c
 5. 
 6. 
 7. 
