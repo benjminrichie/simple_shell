@@ -1,8 +1,6 @@
-*****The AUTHORS of this project are Benjamin and Blessing (BB)
+#This file contains the list of AUTHORS or owners of this project
+#for how the file was generated click hack/generate-authors.sh.
+#See hack/generate-authors.sh to make modifications.
 
-#Repository was created by Benjamin Richard
-#Contibutors include Tiger Blessing Eruona
-
-Benjamin Contributed -%
-while
-Blessing Contributed -%
+Benjamin Richard <benjminrichie@gmail.com>
+Tiger Eruona Blessing <Blessingtiger2020@gmail.com>
