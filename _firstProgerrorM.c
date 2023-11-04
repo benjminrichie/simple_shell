@@ -53,14 +53,14 @@ int BenerratoiBless(char *Dstring)
 }
 
 /**
- * _funcconvert - This is a clone(converter function)
+ * convert_number - This is a clone(converter function)
  * @base: This represents the base of our prog
  * @num: This represents the number
  * @flags: This represents the argument flags
  * Return: just the string
  */
 
-char *_funcconvert(long int num, int base, int flags)
+char *convert_number(long int num, int base, int flags)
 {
 	static char *array;
 	static char buffer[50];
