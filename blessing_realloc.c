@@ -1,30 +1,35 @@
-#include "BlessBenShell.h"
+#include "shell.h"
 
 /**
- **_memset - This func will fill memory
+ **_memset - This func simply fills the memory with a constant byte in our prog
  *@s: Just a pointer
- *@b: This is the byte that pointer *s will fill
- *@n: This is the number of bytes the prog is to fill
- *Return: A pointer
+ *@b: This is the byte to fill
+ *@n: Represents the amount of bytes
+ *Return: Just a pointer
  */
 
 char *_memset(char *s, char b, unsigned int n)
 {
-	unsigned int k;
+	unsigned int f;
 
-	for (k = 0; k < n; k++)
-		s[k] = b;
+	for (f = 0; f < n; f++)
+	{
+		s[f] = b;
+	}
 	return (s);
 }
 
 /**
- * ffree - This func simply frees a string
+ * ffree - This func will only free a string
+ * of strings in our prog
+ *
  * @pp: This is the str of str in our prog
+ *
  */
 
 void ffree(char **pp)
 {
-	char **w = pp;
+	char **z = pp;
 
 	if (!pp)
 	{
@@ -34,21 +39,26 @@ void ffree(char **pp)
 	{
 		free(*pp++);
 	}
-	free(w);
+	free(z);
 }
 
 /**
- * _realloc - This func will just
- * reallocate mem
- * @ptr: Just a pointer
- * @old_size: This is the prev byte size
+ * _realloc - This is the function that will
+ * reallocate a block of memory in our program
+ *
+ * @ptr: just a pointer
+ *
+ * @old_size: This is the old byte size
+ *
  * @new_size: This is the new byte size
+ *
  * Return: A pointer
+ *
  */
 
 void *_realloc(void *ptr, unsigned int old_size, unsigned int new_size)
 {
-	char *point;
+	char *p;
 
 	if (!ptr)
 	{
@@ -62,19 +72,16 @@ void *_realloc(void *ptr, unsigned int old_size, unsigned int new_size)
 	{
 		return (ptr);
 	}
-
-	point = malloc(new_size);
-	if (!point)
+	p = malloc(new_size);
+	if (!p)
 	{
 		return (NULL);
 	}
-
 	old_size = old_size < new_size ? old_size : new_size;
 	while (old_size--)
 	{
-		point[old_size] = ((char *)ptr)[old_size];
+		p[old_size] = ((char *)ptr)[old_size];
 	}
 	free(ptr);
-
-	return (point);
+	return (p);
 }
