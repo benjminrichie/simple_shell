@@ -1,11 +1,11 @@
 #include "shell.h"
 
 /**
- * get_history_file - This func only gets the history file in this prog
+ * get_history_file - This func only gets the history file in this program
  *
- * @info: This is the parameter struct in our prog
+ * @info: This is the parameter struct in our program.
  *
- * Return: string containg the history
+ * Return: string containg the history.
  *
  */
 
@@ -32,11 +32,11 @@ char *get_history_file(info_t *info)
 
 /**
  * write_history - This func will only create a file
- * or append a file to an existing one
+ * or append a file to an existing one.
  *
- * @info: This is the parameter struct of our prog
+ * @info: This is the parameter struct of our program.
  *
- * Return: 1 (success), else -1
+ * Return: 1 (success), else -1.
  *
  */
 
@@ -69,11 +69,11 @@ int write_history(info_t *info)
 
 /**
  * read_history - This func will read the
- * history from a file in our prog
+ * history from a file in our program.
  *
- * @info: This is the parameter struct of our prog
+ * @info: This is the parameter struct of our program.
  *
- * Return: histcount (success), else 0(failure)
+ * Return: histcount (success), else 0(failure).
  *
  */
 
@@ -122,16 +122,16 @@ int read_history(info_t *info)
 
 /**
  * build_history_list - This fun only adds
- * entry to a history linked list in our prog
+ * entry to a history linked list in our program
  *
- * @info: This is the structure that contains arguments
+ * @info: This is the structure that contains arguments.
  *
- * @buf: Represents the buffer
+ * @buf: Represents the buffer.
  *
  * @linecount: This is the history linecount,
- * histcount in our prog
+ * histcount in our program.
  *
- * Return: 0 (Always)
+ * Return: 0 (Always).
  *
  */
 
@@ -154,11 +154,11 @@ int build_history_list(info_t *info, char *buf, int linecount)
 
 /**
  * renumber_history - This func will only renumber
- * the history linked list after changes in our prog
+ * the history linked list after changes in our program.
  *
- * @info: This is the structure that contains arguments
+ * @info: This is the structure that contains arguments.
  *
- * Return: histcount
+ * Return: histcount.
  *
  */
 
