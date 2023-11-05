@@ -2,13 +2,13 @@
 
 /**
  * input_buf - This func simply will buffer
- * chained commands in our prog
+ * chained commands in our program.
  *
- * @info: This is the parameter struct of our prog
+ * @info: This is the parameter struct of our program.
  *
- * @buf: This is the address of buffer of our prog
+ * @buf: This is the address of buffer of our program.
  *
- * @len: This is the address of len var
+ * @len: This is the address of len variable
  *
  * Return: bytes
  *
@@ -49,11 +49,11 @@ ssize_t input_buf(info_t *info, char **buf, size_t *len)
 }
 
 /**
- * get_input - This func will get a line minus the newline
+ * get_input - This func will get a line minus the newline.
  *
- * @info: This is the parameter struct of our Prog
+ * @info: This is the parameter struct of our Program.
  *
- * Return: bytes read
+ * Return: bytes read.
  *
  */
 
@@ -99,13 +99,13 @@ ssize_t get_input(info_t *info)
 }
 
 /**
- * read_buf - This func will only read a buffer in our prog
+ * read_buf - This func will only read a buffer in our program.
  *
- * @info: This is the parameter struct of our prog
+ * @info: This is the parameter struct of our program.
  *
- * @buf: Representing the buffer
+ * @buf: Representing the buffer.
  *
- * @i: Represents size
+ * @i: Represents size.
  *
  * Return: r
  *
@@ -129,14 +129,14 @@ ssize_t read_buf(info_t *info, char *buf, size_t *i)
 
 /**
  * _getline - This func only gets the next
- * line of input from STDIN in this prog
+ * line of input from STDIN in this program.
  *
- * @info: This is the parameter struct of our prog
+ * @info: This is the parameter struct of our program.
  *
- * @ptr: Just a pointer
+ * @ptr: Just a pointer.
  *
  * @length: This is the size of previously
- * allocated ptr buffer if not NULL
+ * allocated ptr buffer if not NULL.
  *
  * Return: s
  *
@@ -183,9 +183,9 @@ int _getline(info_t *info, char **ptr, size_t *length)
 }
 
 /**
- * sigintHandler - This func will only block ctrl-C
+ * sigintHandler - This func will only block ctrl-C.
  *
- * @sig_num: This represents the signal number
+ * @sig_num: This represents the signal number.
  *
  * Return: void
  *
