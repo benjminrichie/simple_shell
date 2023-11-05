@@ -2,11 +2,11 @@
 
 /**
  * list_len - This function will just determine
- * the  length of a linked list in our prog
+ * the  length of a linked list in our program.
  *
- * @h: pointer to the very first node
+ * @h: pointer to the very first node.
  *
- * Return: size
+ * Return: size.
  *
  */
 
@@ -23,11 +23,11 @@ size_t list_len(const list_t *h)
 }
 
 /**
- * list_to_strings - This function simply returns an array of strings
+ * list_to_strings - This function simply returns an array of strings.
  *
- * @head: just a pointer to the very first node
+ * @head: just a pointer to the very first node.
  *
- * Return: only an array of strings for the prog
+ * Return: only an array of strings for the program.
  *
  */
 
@@ -70,11 +70,11 @@ char **list_to_strings(list_t *head)
 
 /**
  * print_list - This function will just print the
- * elements of a list_t linked list in this prog
+ * elements of a list_t linked list in this program.
  *
- * @h: Just a pointer to the very first node
+ * @h: A pointer to the very first node.
  *
- * Return: size
+ * Return: size.
  *
  */
 
@@ -97,15 +97,15 @@ size_t print_list(const list_t *h)
 
 /**
  * node_starts_with - This function simply returns
- * the node whose string starts with a prefix
+ * the node whose string starts with a prefix.
  *
- * @node: Just a pointer to the very first node
+ * @node: Just a pointer to the very first node.
  *
- * @prefix: This is the string to match in this prog
+ * @prefix: This is the string to match in this program
  *
- * @c: char
+ * @c: char.
  *
- * Return: A node or null
+ * Return: A node or null.
  *
  */
 
@@ -127,13 +127,13 @@ list_t *node_starts_with(list_t *node, char *prefix, char c)
 
 /**
  * get_node_index - This func simply gets
- * the index of a node in this prog
+ * the index of a node in this program.
  *
- * @head: This is a pointer
+ * @head: This is a pointer.
  *
- * @node: Another pointer
+ * @node: Another pointer.
  *
- * Return: Just the index of a node or -1
+ * Return: Just the index of a node or -1.
  *
  */
 
