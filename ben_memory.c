@@ -2,9 +2,9 @@
 
 /**
  * bfree - This is the function that is responsible for
- * freeing a pointer and sets the address to NULL
+ * freeing a pointer and sets the address to NULL.
  *
- * @ptr: Just a pointer
+ * @ptr: Just a pointer.
  *
  * Return: 1(FREED), else 0.
  *
