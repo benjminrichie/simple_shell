@@ -56,7 +56,7 @@ int _mycd(info_t *info)
 	{
 		if (!_getenv(info, "OLDPWD="))
 		{
-			_puts(s);
+			_puts(y);
 			_putchar('\n');
 			return (1);
 		}
