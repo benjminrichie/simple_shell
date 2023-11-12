@@ -1,8 +1,8 @@
-#include "shell.h"
+#include "myShellHeader.h"
 
 /**
  * bfree - This is the function that is responsible for
- * freeing a pointer and sets the address to NULL.
+ * freeing a pointer and setting the address to NULL.
  *
  * @ptr: Just a pointer.
  *

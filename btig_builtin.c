@@ -1,4 +1,4 @@
-#include "shell.h"
+#include "myShellHeader.h"
 
 /**
  * _myexit - This func will simply exit the shell in or prog
