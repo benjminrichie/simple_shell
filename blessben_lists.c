@@ -2,15 +2,15 @@
 
 /**
  * add_node - This func will add a node
- * to the start of the list in this prog
+ * to the start of the list in this program.
  *
- * @head: This is the first node
+ * @head: This is the first node.
  *
- * @str: string
+ * @str: string.
  *
- * @num: number
+ * @num: number.
  *
- * Return: size
+ * Return: size.
  *
  */
 
@@ -45,15 +45,15 @@ list_t *add_node(list_t **head, const char *str, int num)
 
 /**
  * add_node_end - This func will add a node
- * to the end of the list in our prog
+ * to the end of the list in our program.
  *
- * @head: This is the fist node
+ * @head: This is the fist node.
  *
- * @str: string
+ * @str: string.
  *
- * @num: number
+ * @num: number.
  *
- * Return: size
+ * Return: size.
  *
  */
 
@@ -99,11 +99,11 @@ list_t *add_node_end(list_t **head, const char *str, int num)
 
 /**
  * print_list_str - This func will only print
- * the string element of a list_t linked list
+ * the string element of a list_t linked list.
  *
- * @h: This is the first node
+ * @h: This is the first node.
  *
- * Return: size
+ * Return: size.
  *
  */
 
@@ -123,13 +123,13 @@ size_t print_list_str(const list_t *h)
 
 /**
  * delete_node_at_index - This is the func that will
- * delete a node at a given index in our prog
+ * delete a node at a given index in our program
  *
- * @head: This is the very first node
+ * @head: This is the very first node.
  *
- * @index: index to be deleted
+ * @index: index to be deleted.
  *
- * Return: 1(SUCCESS), else 0(FAILURE)
+ * Return: 1(SUCCESS), else 0(FAILURE).
  *
  */
 
@@ -170,11 +170,11 @@ int delete_node_at_index(list_t **head, unsigned int index)
 
 /**
  * free_list - This func simply frees all
- * nodes of a list in our program
+ * nodes of a list in our program.
  *
- * @head_ptr: The very first node
+ * @head_ptr: The very first node.
  *
- * Return: void
+ * Return: void.
  *
  */
 
