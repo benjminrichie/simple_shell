@@ -36,4 +36,4 @@ In this Project, we covered numerous concepts and created the following files
 As such, we always remember to #include "shell.h" in each of the files above from 1 to 25 
 excluding "AUTHORS" and "README.md"
 
-Thank you
+Thanks
