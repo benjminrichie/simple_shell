@@ -35,4 +35,4 @@ In this Project, we covered numerous concepts and created the following files
 ***********************THE HEADER FILE FOR THIS PROGRAM IS shell.h
 As such, we always remember to #include "shell.h" in each of the files above from 1 to 25 
 excluding "AUTHORS" and "README.md"
-Thanks
+Thank you
