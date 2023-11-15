@@ -53,9 +53,7 @@ int hsh(info_t *info, char **av)
 	if (builtin_ret == -2)
 	{
 		if (info->err_num == -1)
-		{
 			exit(info->status);
-		}
 		exit(info->err_num);
 	}
 	return (builtin_ret);
@@ -68,8 +66,10 @@ int hsh(info_t *info, char **av)
  * @info: This is the parameter
  * info struct of this program.
  *
- * Return: -1 (builtin not found), else if 0 (builtin executed successfully),
- * else if 1 (builtin found but not successful), else -2 (builtin signals exit()).
+ * Return: -1 (builtin not found),
+ * else if 0 (builtin executed successfully),
+ * else if 1 (builtin found but not successful),
+ * else -2 (builtin signals exit()).
  *
  */
 
