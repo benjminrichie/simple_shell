@@ -1,16 +1,14 @@
-#include "shell.h"
+#include "mygroupedshell.h"
 
 /**
- * is_cmd - This func will check if a
+ * is_cmd - This function will check if a
  * file is an executable command.
  *
- * @info: This is the info struct of our program.
+ * @info: The info struct of our program.
  *
- * @path: path.
+ * @path: The path.
  *
- * Return: 1(True), else 0.
- *
- */
+ * Return: Return 1(True), */
 
 int is_cmd(info_t *info, char *path)
 {
@@ -29,15 +27,16 @@ int is_cmd(info_t *info, char *path)
 }
 
 /**
- * dup_chars - This func only duplicates char.
+<<<<<<< HEAD
+ * dup_chars - This function only duplicates char.
  *
- * @pathstr: This represents the PATH string.
+ * @pathstr: Represents the PATH string.
  *
- * @start: This represents the starting index of our program.
+ * @start: Represents the starting index of our program.
  *
- * @stop: index to stop at.
+ * @stop: This will be the index to stop at.
  *
- * Return: Just the pointer.
+ * Return: Return just the pointer.
  *
  */
 
@@ -58,13 +57,13 @@ char *dup_chars(char *pathstr, int start, int stop)
 /**
  * find_path - This func simply finds the cmd in the PATH string.
  *
- * @info: This is the info struct of our program.
+ * @info: The info struct of our program.
  *
  * @pathstr: This is the PATH string of our program.
  *
- * @cmd: This is cmd we are finding.
+ * @cmd: The cmd we are finding.
  *
- * Return: cmd path(if found), else NULL.
+ * Return: Return cmd path(if found), else NULL.
  *
  */
 

@@ -1,4 +1,4 @@
-#include "shell.h"
+#include "myShellHeader.h"
 
 /**
  * get_history_file - This func only gets the history file in this program

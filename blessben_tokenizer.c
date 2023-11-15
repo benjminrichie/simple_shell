@@ -1,4 +1,4 @@
-#include "shell.h"
+#include "myShellHeader.h"
 
 /**
  * **strtow - This func will only split a string into words

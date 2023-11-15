@@ -1,4 +1,4 @@
-#include "shell.h"
+#include "myShellHeader.h"
 
 /**
  * _strcpy - This func simply copies a string in this prog
