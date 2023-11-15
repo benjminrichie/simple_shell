@@ -8,9 +8,9 @@
  *
  * @buf: This is the address of buffer of our program.
  *
- * @len: This is the address of len variable
+ * @len: This is the address of len variable.
  *
- * Return: bytes
+ * Return: bytes.
  *
  */
 
@@ -107,7 +107,7 @@ ssize_t get_input(info_t *info)
  *
  * @i: Represents size.
  *
- * Return: r
+ * Return: r.
  *
  */
 
