@@ -1,16 +1,16 @@
 #include "myShellHeader.h"
 
 /**
- * hsh - The function of the
+ * hsh - This function is the
  * main shell loop of this program.
  *
  * @info: The parameter
  * info struct of this program.
  *
- * @av: This is the argument vector
+ * @av: Argument vector
  * from main().
  *
- * Return: 0 (success), else if 1 (error),
+ * Return: Return 0 (success), else if 1 (error),
  * else (error code).
  *
  */
@@ -62,15 +62,14 @@ int hsh(info_t *info, char **av)
 }
 
 /**
- * find_builtin - This function is to find
+ * find_builtin - This function finds
  * a built-in command in our program.
  *
  * @info: This is the parameter
  * info struct of this program.
  *
- * Return: Return -1 (builtin not found), else if 0 (builtin executed successfully),
- * else if 1 (builtin found but not successful),
- * else -2 (builtin signals exit()).
+ * Return: -1 (builtin not found), else if 0 (builtin executed successfully),
+ * else if 1 (builtin found but not successful), else -2 (builtin signals exit()).
  *
  */
 
@@ -105,7 +104,7 @@ int find_builtin(info_t *info)
  * find_cmd - This function simply finds a
  * command in the PATH of our program.
  *
- * @info: This is the parameter info struct of our program.
+ * @info: Parameter info structure of our program.
  *
  * Return: Return void.
  *
@@ -154,13 +153,13 @@ void find_cmd(info_t *info)
 }
 
 /**
- * fork_cmd - Function that simply
+ * fork_cmd - This function simply
  * forks an exec thread to run cmd.
  *
  * @info: This is the parameter
  * info struct of our program.
  *
- * Return: Return void.
+ * Return: void.
  *
  */
 
