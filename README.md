@@ -1,6 +1,6 @@
 This is a team Project between Benjamin Richard and Tiger Eruona Blessing.
 
-******TOPIC: simple_shell
+******TOPIC: SIMPLE_SHELL
 
 
 In this Project, we covered numerous concepts and created the following files
