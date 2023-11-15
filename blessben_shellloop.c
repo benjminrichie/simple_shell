@@ -1,7 +1,7 @@
 #include "blessbenShellHeader.h"
 
 /**
- * hsh - The function of the                                            
+ * hsh - The function of the
  * main shell loop of this program.
  *
  * @info: The parameter
