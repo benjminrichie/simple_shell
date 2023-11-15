@@ -1,4 +1,4 @@
-This is a team Project between Benjamin Richard and Tiger Eruona Blessing
+This is a team Project between Benjamin Richard and Tiger Eruona Blessing.
 
 ******TOPIC: simple_shell
 
