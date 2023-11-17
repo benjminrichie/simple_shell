@@ -33,6 +33,8 @@ int _myexit(info_t *info)
  *
  * @info: This is the structure containing potential arguments
  *
+ * Return: Nothing
+ *
  */
 
 int _mycd(info_t *info)

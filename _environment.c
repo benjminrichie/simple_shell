@@ -23,6 +23,8 @@ int _myenv(info_t *info)
  *
  * @info: This is the structure that contains arguments
  *
+ * @name: This is the name
+ *
  * Return: value
  *
  */
